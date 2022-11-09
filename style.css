@@ -15,6 +15,16 @@ img {
 	font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
 	line-height: 150px;
 }
+.project-name {
+	display: flex;
+	align-items: flex-end;
+	column-gap: 10px;
+}
+.project-name a {
+	color: #000000;
+	margin-bottom: 3px;
+}
+
 #desc {
 	font-size: 40px;
 	color: #000000;
@@ -23,6 +33,13 @@ img {
 	line-height: 40px;
 	margin-top: -80px;
 	margin-left: 8px;
+}
+#links{
+	display: flex;
+	font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+	margin-left: 8px;
+	justify-content: space-between;
+	width: 150px
 }
 .row {
   display: flex;
@@ -43,4 +60,8 @@ img {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+}
+h2 {
+	color: black;
+	margin: 0px
 }
