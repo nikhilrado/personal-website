@@ -1,6 +1,7 @@
 body {
 	font-family: arial, sans-serif;
 	margin: 0;
+	background-color: #F5EFDF;
 }
 p {
 	color: grey;
@@ -8,11 +9,15 @@ p {
 img {
 	border-radius: 5px;
 }
+#nikhil-image {
+	padding-top: 5vh;
+}
 #name {
 	font-size: 150px;
 	color: #000000;
 	font-weight: 700;
-	font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
+	/*font-family: "Inter", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;*/
+	font-family: Helvetica, sans-serif;
 	line-height: 150px;
 }
 .project-name {
@@ -24,7 +29,18 @@ img {
 	color: #000000;
 	margin-bottom: 3px;
 }
-
+#top-spacer {
+	margin-bottom: -40px;
+	height: 40px;
+	border: 3px dashed rgba(3, 3, 3, .05);
+}
+#main-content{
+	padding-top: 60px;
+	border-left: 3px dashed rgba(3, 3, 3, .05);
+	padding-left: 40px;
+	border-right: 3px dashed rgba(3, 3, 3, .05);
+	padding-right: 40px;
+}
 #desc {
 	font-size: 40px;
 	color: #000000;
