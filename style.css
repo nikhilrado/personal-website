@@ -5,6 +5,7 @@ body {
 }
 p {
 	color: grey;
+	font-size: 18px;
 }
 img {
 	border-radius: 5px;
@@ -19,6 +20,9 @@ img {
 	/*font-family: "Inter", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;*/
 	font-family: Helvetica, sans-serif;
 	line-height: 150px;
+}
+.project-image {
+	border-radius: 5px;
 }
 .project-name {
 	display: flex;
@@ -57,13 +61,27 @@ img {
 	justify-content: space-between;
 	width: 150px
 }
+.mini-project-title {
+	color: black;
+}
+.info-bar {
+	padding-top: 8px;
+	white-space:nowrap;
+}
+.info-bar p {
+	font-size: 14px;
+	color: grey;
+}
+.info-bar, .project-description {
+	padding-left: 40px;
+}
 .row {
   display: flex;
 }
 .column {
-  flex: 50%;
 }
 .nikhilimage {
+	flex: 50%;
 	display: flex;
 	justify-content: right;
 }
@@ -80,4 +98,15 @@ img {
 h2 {
 	color: black;
 	margin: 0px
+}
+
+.left {
+  width: 25%;
+}
+
+.right {
+  width: 75%;
+}
+.project {
+	padding-bottom: 40px;
 }
