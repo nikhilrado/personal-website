@@ -7,11 +7,32 @@ p {
 	color: grey;
 	font-size: 18px;
 }
+p a {
+	color: inherit;
+}
 img {
 	border-radius: 5px;
 }
 #nikhil-image {
-	padding-top: 5vh;
+	/* padding-top: 5vh; */
+	/* flex: 50% */
+	justify-content: left;
+}
+.nikhilimage {
+
+	background-color: blue;
+}
+.name-column {
+	flex-wrap: wrap;
+	background-color: #c27a7a;
+	flex: 50%; 
+}
+.row {
+  display: flex;
+	flex-wrap: wrap;
+}
+.fold {
+	/* height: 100vh; */
 }
 #name {
 	font-size: 150px;
@@ -20,6 +41,9 @@ img {
 	/*font-family: "Inter", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;*/
 	font-family: Helvetica, sans-serif;
 	line-height: 150px;
+}
+#above-fold {
+
 }
 .project-image {
 	border-radius: 5px;
@@ -66,7 +90,7 @@ img {
 }
 .info-bar {
 	padding-top: 8px;
-	white-space:nowrap;
+	/* white-space:nowrap; */
 }
 .info-bar p {
 	font-size: 14px;
@@ -75,22 +99,9 @@ img {
 .info-bar, .project-description {
 	padding-left: 40px;
 }
-.row {
-  display: flex;
-}
-.column {
-}
-.nikhilimage {
-	flex: 50%;
-	display: flex;
-	justify-content: right;
-}
-.fold {
-	height: 100vh;
-}
 #main-content {
 	width: 800px;
-	margin: auto;
+	margin: 0px auto;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
