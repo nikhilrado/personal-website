@@ -20,11 +20,11 @@ img {
 }
 .nikhilimage {
 
-	background-color: blue;
+	/* background-color: blue; */
 }
 .name-column {
 	flex-wrap: wrap;
-	background-color: #c27a7a;
+	/* background-color: #c27a7a; */
 	flex: 50%; 
 }
 .row {
@@ -83,7 +83,7 @@ img {
 	font-family: "Inter var", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;
 	margin-left: 8px;
 	justify-content: space-between;
-	width: 150px
+	width: 250px
 }
 .mini-project-title {
 	color: black;
@@ -116,7 +116,7 @@ h2 {
 }
 
 .right {
-  width: 75%;
+  width: 70%;
 }
 .project {
 	padding-bottom: 40px;
