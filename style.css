@@ -14,9 +14,13 @@ img {
 	border-radius: 5px;
 }
 #nikhil-image {
-	/* padding-top: 5vh; */
-	/* flex: 50% */
-	justify-content: left;
+	padding-top: 5vh;
+	flex: 40%;
+	display: flex;
+	justify-content: flex-end;
+}
+#n-image{
+	height: 100%%;
 }
 .nikhilimage {
 
@@ -25,17 +29,18 @@ img {
 .name-column {
 	flex-wrap: wrap;
 	/* background-color: #c27a7a; */
-	flex: 50%; 
+	flex: 60%; 
 }
 .row {
   display: flex;
-	flex-wrap: wrap;
+	/* flex-wrap: wrap; */
 }
 .fold {
-	/* height: 100vh; */
+	height: 100vh;
+	/* overflow: hidden; */
 }
 #name {
-	font-size: 150px;
+	font-size: 130px;
 	color: #000000;
 	font-weight: 700;
 	/*font-family: "Inter", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, sans-serif;*/
